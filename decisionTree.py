@@ -25,4 +25,4 @@ if __name__ == '__main__':
     features = [[140,'smooth'],[130,'smooth'],[150,'bumpy'],[170,'bumpy']]
     labels = ['apple','apple','orange','orange']
 
-    print classify(features,labels,[[150,'smooth']])
+    print classify(features,labels,[[150,'smooth']]) # => 'apple'
